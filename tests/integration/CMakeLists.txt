@@ -1,0 +1,3 @@
+add_executable(it_ArithmeticExpressionsHandling it_ArithmeticExpressionsHandling.cpp)
+target_link_libraries(it_ArithmeticExpressionsHandling Calculator gtest_main)
+gtest_discover_tests(it_ArithmeticExpressionsHandling)
